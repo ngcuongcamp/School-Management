@@ -4,7 +4,6 @@ import { role } from '@/lib/data'
 import React from 'react'
 import menuItems from './menuItems.json'
 
-
 const Menu = () => {
     return (
         <div className="mt-4 text-sm">

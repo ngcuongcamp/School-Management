@@ -5,11 +5,11 @@ export let role = "admin";
 export const teachersData = [
   {
     id: 1,
-    teacherId: "1234567890",
+    teacherId: "1",
     name: "John Doe",
     email: "john@doe.com",
     // photo:
-      // "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Math", "Geometry"],
     classes: ["1B", "2A", "3C"],
@@ -17,11 +17,11 @@ export const teachersData = [
   },
   {
     id: 2,
-    teacherId: "1234567890",
+    teacherId: "2",
     name: "Jane Doe",
     email: "jane@doe.com",
     // photo:
-      // "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Physics", "Chemistry"],
     classes: ["5A", "4B", "3C"],
@@ -29,11 +29,11 @@ export const teachersData = [
   },
   {
     id: 3,
-    teacherId: "1234567890",
+    teacherId: "3",
     name: "Mike Geller",
     email: "mike@geller.com",
     // photo:
-      // "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Biology"],
     classes: ["5A", "4B", "3C"],
@@ -41,11 +41,11 @@ export const teachersData = [
   },
   {
     id: 4,
-    teacherId: "1234567890",
+    teacherId: "4",
     name: "Jay French",
     email: "jay@gmail.com",
     // photo:
-      // "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["History"],
     classes: ["5A", "4B", "3C"],
@@ -53,11 +53,11 @@ export const teachersData = [
   },
   {
     id: 5,
-    teacherId: "1234567890",
+    teacherId: "5",
     name: "Jane Smith",
     email: "jane@gmail.com",
     // photo:
-      // "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Music", "History"],
     classes: ["5A", "4B", "3C"],
@@ -65,11 +65,11 @@ export const teachersData = [
   },
   {
     id: 6,
-    teacherId: "1234567890",
+    teacherId: "6",
     name: "Anna Santiago",
     email: "anna@gmail.com",
     // photo:
-      // "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Physics"],
     classes: ["5A", "4B", "3C"],
@@ -77,11 +77,11 @@ export const teachersData = [
   },
   {
     id: 7,
-    teacherId: "1234567890",
+    teacherId: "7",
     name: "Allen Black",
     email: "allen@black.com",
     // photo:
-      // "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["English", "Spanish"],
     classes: ["5A", "4B", "3C"],
@@ -89,11 +89,11 @@ export const teachersData = [
   },
   {
     id: 8,
-    teacherId: "1234567890",
+    teacherId: "8",
     name: "Ophelia Castro",
     email: "ophelia@castro.com",
     // photo:
-      // "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Math", "Geometry"],
     classes: ["5A", "4B", "3C"],
@@ -101,11 +101,11 @@ export const teachersData = [
   },
   {
     id: 9,
-    teacherId: "1234567890",
+    teacherId: "9",
     name: "Derek Briggs",
     email: "derek@briggs.com",
     // photo:
-      // "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Literature", "English"],
     classes: ["5A", "4B", "3C"],
@@ -113,11 +113,11 @@ export const teachersData = [
   },
   {
     id: 10,
-    teacherId: "1234567890",
+    teacherId: "10",
     name: "John Glover",
     email: "john@glover.com",
     // photo:
-      // "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     subjects: ["Biology"],
     classes: ["5A", "4B", "3C"],
@@ -128,11 +128,11 @@ export const teachersData = [
 export const studentsData = [
   {
     id: 1,
-    studentId: "1234567890",
+    studentId: "1",
     name: "John Doe",
     email: "john@doe.com",
     // photo:
-      // "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "1B",
@@ -140,11 +140,11 @@ export const studentsData = [
   },
   {
     id: 2,
-    studentId: "1234567890",
+    studentId: "2",
     name: "Jane Doe",
     email: "jane@doe.com",
     // photo:
-      // "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -152,11 +152,11 @@ export const studentsData = [
   },
   {
     id: 3,
-    studentId: "1234567890",
+    studentId: "3",
     name: "Mike Geller",
     email: "mike@geller.com",
     // photo:
-      // "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -164,11 +164,11 @@ export const studentsData = [
   },
   {
     id: 4,
-    studentId: "1234567890",
+    studentId: "4",
     name: "Jay French",
     email: "jay@gmail.com",
     // photo:
-      // "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -176,11 +176,11 @@ export const studentsData = [
   },
   {
     id: 5,
-    studentId: "1234567890",
+    studentId: "5",
     name: "Jane Smith",
     email: "jane@gmail.com",
     // photo:
-      // "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -188,11 +188,11 @@ export const studentsData = [
   },
   {
     id: 6,
-    studentId: "1234567890",
+    studentId: "6",
     name: "Anna Santiago",
     email: "anna@gmail.com",
     // photo:
-      // "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -200,11 +200,11 @@ export const studentsData = [
   },
   {
     id: 7,
-    studentId: "1234567890",
+    studentId: "7",
     name: "Allen Black",
     email: "allen@black.com",
     // photo:
-      // "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -212,11 +212,11 @@ export const studentsData = [
   },
   {
     id: 8,
-    studentId: "1234567890",
+    studentId: "8",
     name: "Ophelia Castro",
     email: "ophelia@castro.com",
     // photo:
-      // "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -224,11 +224,11 @@ export const studentsData = [
   },
   {
     id: 9,
-    studentId: "1234567890",
+    studentId: "9",
     name: "Derek Briggs",
     email: "derek@briggs.com",
     // photo:
-      // "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -236,11 +236,11 @@ export const studentsData = [
   },
   {
     id: 10,
-    studentId: "1234567890",
+    studentId: "10",
     name: "John Glover",
     email: "john@glover.com",
     // photo:
-      // "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    // "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
@@ -252,7 +252,14 @@ export const parentsData = [
   {
     id: 1,
     name: "John Doe",
-    students: ["Sarah Brewer"],
+    students: [{
+      id: 1456,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 2331,
+      name: "Jane Doe",
+    }],
     email: "john@doe.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -260,7 +267,14 @@ export const parentsData = [
   {
     id: 2,
     name: "Jane Doe",
-    students: ["Cecilia Bradley"],
+    students: [{
+      id: 1245,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 2343,
+      name: "Jane Doe",
+    }],
     email: "jane@doe.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -268,7 +282,14 @@ export const parentsData = [
   {
     id: 3,
     name: "Mike Geller",
-    students: ["Fanny Caldwell"],
+    students: [{
+      id: 111,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 2231,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -276,7 +297,14 @@ export const parentsData = [
   {
     id: 4,
     name: "Jay French",
-    students: ["Mollie Fitzgerald", "Ian Bryant"],
+    students: [{
+      id: 1675,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 2311,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -284,7 +312,14 @@ export const parentsData = [
   {
     id: 5,
     name: "Jane Smith",
-    students: ["Mable Harvey"],
+    students: [{
+      id: 123,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 2768,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -292,7 +327,14 @@ export const parentsData = [
   {
     id: 6,
     name: "Anna Santiago",
-    students: ["Joel Lambert"],
+    students: [{
+      id: 1890,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 2242,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -300,7 +342,14 @@ export const parentsData = [
   {
     id: 7,
     name: "Allen Black",
-    students: ["Carrie Tucker", "Lilly Underwood"],
+    students: [{
+      id: 167,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 209,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -308,7 +357,14 @@ export const parentsData = [
   {
     id: 8,
     name: "Ophelia Castro",
-    students: ["Alexander Blair"],
+    students: [{
+      id: 176,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 267,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -316,7 +372,14 @@ export const parentsData = [
   {
     id: 9,
     name: "Derek Briggs",
-    students: ["Susan Webster", "Maude Stone"],
+    students: [{
+      id: 178,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 209,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -324,7 +387,14 @@ export const parentsData = [
   {
     id: 10,
     name: "John Glover",
-    students: ["Stella Scott"],
+    students: [{
+      id: 111,
+      name: "Sarah Brewer",
+    },
+    {
+      id: 222,
+      name: "Jane Doe",
+    }],
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
@@ -335,53 +405,59 @@ export const subjectsData = [
   {
     id: 1,
     name: "Math",
-    teachers: ["Alice Phelps", "Russell Davidson"],
+    teachers: [
+      { id: 1, name: "Alice Phelps" }, { id: 2, name: "Russell Davidson" }
+    ]
   },
   {
     id: 2,
     name: "English",
-    teachers: ["Manuel Becker", "Eddie Chavez"],
+    teachers: [
+      { id: 1, name: "Alice Phelps" }, { id: 2, name: "Russell Davidson" }
+    ]
   },
   {
     id: 3,
     name: "Physics",
-    teachers: ["Lola Newman", "Darrell Delgado"],
+    teachers: [
+      { id: 3, name: "Lola Newman" }, { id: 4, name: "Darrell Delgado" }
+    ]
   },
   {
     id: 4,
     name: "Chemistry",
-    teachers: ["Nathan Kelly", "Benjamin Snyder"],
+    teachers: [{ id: 3, name: "Nathan Kelly" }, { id: 4, name: "Benjamin Snyder" }]
   },
   {
     id: 5,
     name: "Biology",
-    teachers: ["Alma Benson", "Lina Collier"],
+    teachers: [{ id: 1, name: "Alma Benson" }, { id: 2, name: "Lina Collier" }]
   },
   {
     id: 6,
     name: "History",
-    teachers: ["Hannah Bowman", "Betty Obrien"],
+    teachers: [{ id: 3, name: "Hannah Bowman" }, { id: 4, name: "Betty Obrien" }]
   },
   {
     id: 7,
     name: "Geography",
-    teachers: ["Lora French", "Sue Brady"],
+    teachers: [{ id: 5, name: "Lora French" }, { id: 6, name: "Sue Brady" }]
   },
   {
     id: 8,
     name: "Art",
-    teachers: ["Harriet Alvarado", "Mayme Keller"],
+    teachers: [{ id: 7, name: "Harriet Alvarado" }, { id: 8, name: "Mayme Keller" }]
   },
   {
     id: 9,
     name: "Music",
-    teachers: ["Gertrude Roy", "Rosa Singleton"],
+    teachers: [{ id: 9, name: "Gertrude Roy" }, { id: 10, name: "Rosa Singleton" }]
   },
   {
     id: 10,
     name: "Literature",
-    teachers: ["Effie Lynch", "Brett Flowers"],
-  },
+    teachers: [{ id: 11, name: "Effie Lynch" }, { id: 12, name: "Brett Flowers" }]
+  }
 ];
 
 export const classesData = [

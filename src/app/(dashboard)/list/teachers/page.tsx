@@ -5,6 +5,7 @@ import { role, teachersData } from '@/lib/data'
 import Pagination from '@/app/components/Pagination'
 import Table from '@/app/components/Table'
 import Link from 'next/link'
+import FormModal from '@/app/components/FormModal'
 
 
 type Teacher = {
@@ -42,7 +43,7 @@ const columns = [
     {
         header: "Phone",
         accessor: "phone",
-        className: "hidden lg:table-cell",
+        className: "hidden xl:table-cell",
     },
     {
         header: "Address",
@@ -77,7 +78,7 @@ const TeacherListPage = () => {
             <td className="hidden md:table-cell align-middle text-gray-500 font-semibold">#{item.teacherId}</td>
             <td className="hidden md:table-cell align-middle">{item.subjects.join(", ")}</td>
             <td className="hidden md:table-cell align-middle">{item.classes.join(", ")}</td>
-            <td className="hidden lg:table-cell align-middle">{item.phone}</td>
+            <td className="hidden xl:table-cell align-middle">{item.phone}</td>
             <td className="hidden lg:table-cell align-middle">{item.address}</td>
             <td className="align-middle">
                 <div className="flex items-center gap-2">
@@ -86,11 +87,10 @@ const TeacherListPage = () => {
                             <Image src="/view.png" alt="" width={16} height={16} />
                         </button>
                     </Link>
-                    {role === "admin" && (
-                        <button className="w-7 h-7 flex items-center justify-center rounded-full bg-lamaPurple">
-                            <Image src="/delete.png" alt="" width={16} height={16} />
-                        </button>
-                        // <FormModal table="teacher" type="delete" id={item.id} />
+                    {role === "admin" && (<>
+                        <FormModal table="teacher" type="update" data={item} />
+                        <FormModal table="teacher" type="delete" id={item.id} />
+                    </>
                     )}
                 </div>
             </td>
@@ -111,12 +111,9 @@ const TeacherListPage = () => {
                         <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
                             <Image src="/sort.png" alt="" width={14} height={14} />
                         </button>
-                        {/* {role === "admin" && (
-                            // <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
-                            //   <Image src="/plus.png" alt="" width={14} height={14} />
-                            // </button>
+                        {role === "admin" && (
                             <FormModal table="teacher" type="create" />
-                        )} */}
+                        )}
                     </div>
                 </div>
             </div>

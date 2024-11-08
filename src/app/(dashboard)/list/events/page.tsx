@@ -1,47 +1,48 @@
 import React from 'react'
 import TableSearch from '@/app/components/TableSearch'
 import Image from 'next/image'
-import { role, studentsData } from '@/lib/data'
+import { role, eventsData } from '@/lib/data'
 import Pagination from '@/app/components/Pagination'
 import Table from '@/app/components/Table'
 import Link from 'next/link'
 import FormModal from '@/app/components/FormModal'
 
-type Student = {
+
+
+type Result = {
     id: number;
-    studentId: string;
-    name: string;
-    photo: string;
-    phone?: string;
-    grade: number;
+    title: string;
     class: string;
-    address: string;
-}
+    date: string;
+    startTime: string;
+    endTime: string;
+};
 
 const columns = [
     {
-        header: "Info",
-        accessor: "info",
+        header: "Title",
+        accessor: "title",
     },
     {
-        header: "Student ID",
-        accessor: "studentId",
+        header: "Class",
+        accessor: "class",
+        className: "hidden sm:table-cell",
+    },
+    {
+        header: "Date",
+        accessor: "date",
         className: "hidden md:table-cell",
     },
     {
-        header: "Grade",
-        accessor: "Grade",
+        header: "Start time",
+        accessor: "startTime",
         className: "hidden md:table-cell",
     },
+
     {
-        header: "Phone",
-        accessor: "phone",
+        header: "End time",
+        accessor: "endTime",
         className: "hidden md:table-cell",
-    },
-    {
-        header: "Address",
-        accessor: "address",
-        className: "hidden lg:table-cell",
     },
     {
         header: "Actions",
@@ -49,40 +50,34 @@ const columns = [
     },
 ];
 
-const StudentListPage = () => {
-    const renderRow = (item: Student) => (
+const EventListPage = () => {
+
+    const renderRow = (item: Result) => (
         <tr
             key={item.id}
-            className="border-b border-gray-200 border-solid even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
+            className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
         >
             <td className="flex items-center gap-4 p-4">
-                <Image
-                    src={item.photo || '/default_user.jpg'}
-                    alt=""
-                    width={40}
-                    height={40}
-                    className=" w-10 h-10 rounded-full object-cover"
-                />
-                <div className="flex flex-col">
-                    <h3 className="font-semibold">{item.name}</h3>
-                    <p className="text-xs text-gray-500">{item.class}</p>
+                <div className="flex flex-row gap-2 items-center justify-center">
+                    <p className="text-sm text-gray-500 font-semibold">#{item.id}</p>
+                    <h3 className="font-semibold">{item.title}</h3>
                 </div>
             </td>
-            <td className="hidden sm:table-cell align-middle font-semibold text-gray-500">#{item.studentId}</td>
-            <td className="hidden md:table-cell align-middle">{item.grade}</td>
-            <td className="hidden md:table-cell align-middle">{item.phone}</td>
-            <td className="hidden lg:table-cell align-middle">{item.address}</td>
+            <td className="hidden sm:table-cell align-middle">{item.class}</td>
+            <td className="hidden md:table-cell align-middle">{item.date}</td>
+            <td className="hidden md:table-cell align-middle">{item.startTime}</td>
+            <td className="hidden md:table-cell align-middle">{item.endTime}</td>
             <td className='align-middle'>
                 <div className="flex items-center gap-2">
-                    <Link href={`/list/students/${item.id}`}>
+                    <Link href={`/list/events/${item.id}`}>
                         <button className="w-7 h-7 flex items-center justify-center rounded-full bg-lamaSky">
                             <Image src="/view.png" alt="" width={16} height={16} />
                         </button>
                     </Link>
                     {role === "admin" && (
                         <>
-                            <FormModal table="student" type="update" data={item} />
-                            <FormModal table="student" type="delete" id={item.id} />
+                            <FormModal table="event" type="update" data={item} />
+                            <FormModal table="event" type="delete" id={item.id} />
                         </>
                     )}
                 </div>
@@ -94,7 +89,7 @@ const StudentListPage = () => {
         <div className="bg-white p-4 rounded-md flex-1 m-4 mt-0">
             {/* TOP */}
             <div className="flex items-center justify-between">
-                <h1 className="hidden md:block text-lg font-semibold">All Students</h1>
+                <h1 className="hidden md:block text-lg font-semibold">All Events</h1>
                 <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
                     <TableSearch />
                     <div className="flex items-center gap-4 self-end">
@@ -105,17 +100,17 @@ const StudentListPage = () => {
                             <Image src="/sort.png" alt="" width={14} height={14} />
                         </button>
                         {role === "admin" && (
-                            <FormModal table="student" type="create" />
+                            <FormModal table="event" type="create" />
                         )}
                     </div>
                 </div>
             </div>
             {/* LIST */}
-            <Table columns={columns} renderRow={renderRow} data={studentsData} />
+            <Table columns={columns} renderRow={renderRow} data={eventsData} />
             {/* PAGINATION */}
             <Pagination />
         </div>
     );
 };
 
-export default StudentListPage
+export default EventListPage
